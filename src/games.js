@@ -30,9 +30,8 @@ Your answer: `);
     return 'Correct!';
   }
   return `${userAnswer} is wrong answer ;(. Correct answer must be 'yes' or 'no'.
-  Let's try again, ${userName}!`;
+Let's try again, ${userName}!`;
 };
-
 
 const getParityCheck = () => {
   greeting();
