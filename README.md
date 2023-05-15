@@ -3,5 +3,5 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/aa0f73af4ffeec744c31/maintainability)](https://codeclimate.com/github/staermag/frontend-project-44/maintainability)
 
-1. brain-even:
+1. **brain-even:**
 [![asciicast](https://asciinema.org/a/TG3Bg1c9ENfTyupqMFBDIOOBe.svg)](https://asciinema.org/a/TG3Bg1c9ENfTyupqMFBDIOOBe)

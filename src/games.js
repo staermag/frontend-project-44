@@ -9,7 +9,7 @@ const greeting = () => {
 };
 
 const getRandomNum = (min = 1, max = 100) => {
-  min = Math.ceil(min); 
+  min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 };
@@ -21,11 +21,11 @@ Your answer: `);
   if (userAnswer === 'yes' && num % 2 !== 0) {
     return `'yes' is wrong answer ;(. Correct answer was 'no'.
     Let's try again, ${userName}!`;
-  } 
+  }
   if (userAnswer === 'no' && num % 2 === 0) {
     return `'no' is wrong answer ;(. Correct answer was 'yes'.
     Let's try again, ${userName}!`;
-  } 
+  }
   if (userAnswer === 'no' || userAnswer === 'yes') {
     return 'Correct!';
   }
@@ -39,11 +39,11 @@ const getParityCheck = () => {
   for (let i = 1; i <= 3; i += 1) {
     const result = cbGetParityCheck();
     if (result !== 'Correct!') {
-        console.log(result);
-        return;
+      console.log(result);
+      return;
     }
     console.log(result);
-  };
+  }
   console.log(`Congratulations, ${userName}!`);
 };
 export default getParityCheck;
