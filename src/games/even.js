@@ -1,4 +1,4 @@
-import { getRandomNum } from '../utils.js';
+import getRandomNum from '../utils.js';
 import gamesLogic, { roundsNumber } from '../index.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';

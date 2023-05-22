@@ -1,4 +1,4 @@
-import { getRandomNum } from '../utils.js';
+import getRandomNum from '../utils.js';
 import gamesLogic, { roundsNumber } from '../index.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
