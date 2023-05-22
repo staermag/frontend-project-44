@@ -5,8 +5,8 @@
 
 ## For install Brain Games:
 
-`$ git clone https://github.com/staermag/frontend-project-44.git`
-`$ npm link`
+`$ git clone https://github.com/staermag/frontend-project-44.git
+$ npm link`
 
 ## 1. For start game Brain-even:
 
